@@ -588,6 +588,7 @@ window.initCanvasAnimation = function () {
     for (
       var e,
         n = document.getElementById(t),
+        if (!n) return;
         i = n.innerHTML.replace("&amp;", "&").split(""),
         a = "",
         o = 0,
